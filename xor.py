@@ -14,7 +14,7 @@ def password_crypter(data, xor_key):
     cryptedInBase64 = base64.b64encode(crypted.encode()).decode()
     return cryptedInBase64
 
-decrypted = (password_crypter("37588622652", "ma24fall"))
+decrypted = (password_crypter("your id", "your key for encryption"))
 
 #The password decrypter.
 def password_decrypter(password_crypted, xor_key):
