@@ -1,4 +1,5 @@
 {
-    "tc" : "your id" ,
-    "pw" : "your password"
+    "tc" : "your encrypted id" ,
+    "pw" : "your encrypted password" , 
+    "xor_key" : "your key value for encryption"
 }
